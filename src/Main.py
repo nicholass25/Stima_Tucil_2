@@ -15,15 +15,24 @@ import matplotlib.pyplot as plt
 # petal width (cm)
 
 # 1
+# alcohol
+# malic_acid
+
+# 1
+# ash
+# total_phenols
+
+# 2
 # mean radius
 # mean texture
 
-# 1
+# 2
 # mean perimeter
 # mean area
 
 # minta input untuk menampilkan dari beberapa dataframe
-dataset = int(input("0. Dataset iris 1. Dataset breast_cancer"))
+dataset = int(
+    input("0. Dataset iris 1. Dataset wine 2. Dataset breast_cancer"))
 x_col = input("Nama kolom untuk x")
 y_col = input("Nama kolom untuk y")
 title = x_col + " vs " + y_col
@@ -33,7 +42,11 @@ if(dataset == 0):
     data = datasets.load_iris()
     df = pd.DataFrame(data.data, columns=data.feature_names)
     df['Target'] = pd.DataFrame(data.target)
-else:
+elif(dataset == 1):
+    data = datasets.load_wine()
+    df = pd.DataFrame(data.data, columns=data.feature_names)
+    df['Target'] = pd.DataFrame(data.target)
+elif(dataset == 2):
     data = datasets.load_breast_cancer()
     df = pd.DataFrame(data.data, columns=data.feature_names)
     df['Target'] = pd.DataFrame(data.target)
@@ -57,5 +70,3 @@ for i in range(len(data.target_names)):
         xs, ys = zip(*coord)
         plt.plot(xs, ys, c=colors[j])
 plt.legend()
-
-# %%
