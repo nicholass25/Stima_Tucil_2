@@ -30,10 +30,10 @@ Jalankan program:
 3. Jika sudah download extension tersebut, akan ada pilihan Run Cell di bagian atas dari #%%
 4. Silakan tekan Run Cell dan kode akan meminta pengguna untuk memasukkan input, contoh input yang ada di laporan sudah tertulis sebagai komen di Main.py
 
-  Contoh Input__
+  Contoh Input <br />
 ![image](https://user-images.githubusercontent.com/90960378/156011881-3f6f1305-a9b4-49dd-86ed-231eb14db115.png)
 
-  Tempat Kode Meminta Input__
+  Tempat Kode Meminta Input <br />
 ![image](https://user-images.githubusercontent.com/90960378/156012009-068a4b5a-9c81-45f8-a84e-6e21db7f0f46.png)
 
 5. Hasil akan muncul pada tab interactive-1
