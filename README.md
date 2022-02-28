@@ -9,7 +9,7 @@ Program menerima data dari dataframe dan dihasilkan convex hull dari data terseb
 ### Package Yang Digunakan
 
 1. pandas
-2. scipy
+2. math
 3. matplotlib
 4. sklearn
 
