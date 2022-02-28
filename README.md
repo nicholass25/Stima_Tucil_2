@@ -1,5 +1,3 @@
-# Tucil_2
-
 # IF2211 - Strategi Algoritma
 
 - 13520121 - Nicholas Budiono
